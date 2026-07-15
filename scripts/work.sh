@@ -19,13 +19,8 @@ vimtodo="vim ~/.todo"
 # Home directory
 alias cdhome="cd $C_HOME/"
 
-# Project local directories
-alias cdre="cd $D_PROJECTS/Review"
-alias cdec="cd $D_PROJECTS/e4.6"
-alias cdhatch3="cd $D_PROJECTS/Hatch3"
-alias cd28="cd $D_PROJECTS/28.0"
-alias cde5="cd $C_PROJECTS/e5.0"
-alias cdbernina="cd $C_PROJECTS/BERNINA"
+# Project dirs
+alias cda="cd $C_PROJECTS/a"
 
 # Alias sudo to sudo -E for proxy since env variables need to be preserved (which have the http/s proxy settings)
 alias sudo="sudo -E"
